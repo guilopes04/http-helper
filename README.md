@@ -1,5 +1,3 @@
-# http-helper
-
 # HTTP Helper: Respostas Customizadas e Tratamento de Erros
 
 Este repositório contém uma coleção de classes e tipos que oferecem respostas HTTP personalizadas e tratamento de erros para aplicações web, proporcionando uma maneira eficaz de gerenciar códigos de status HTTP e respostas específicas para diferentes cenários.
@@ -7,6 +5,7 @@ Este repositório contém uma coleção de classes e tipos que oferecem resposta
 ## Funcionalidades
 
 - **Classes de Resposta Personalizadas**:
+
   - `CustomResponse`: Fornece uma estrutura para criar respostas personalizadas para códigos de status HTTP desejados.
   - `OKResponse`: Especialização de `CustomResponse` para retornar um código de status 200 (OK).
   - `NoContentResponse`: Especialização de `CustomResponse` para retornar um código de status 204 (No Content).
@@ -23,14 +22,14 @@ Exemplo de uso:
 
 ```javascript
 // Criar uma resposta OK
-const okResponse = new OKResponse({ message: 'Requisição bem-sucedida' });
-const httpResponse = okResponse.toHttpResponse();
-console.log(httpResponse); // Exibirá a resposta HTTP correspondente
+const okResponse = new OKResponse({ message: 'Requisição bem-sucedida' })
+const httpResponse = okResponse.toHttpResponse()
+console.log(httpResponse) // Exibirá a resposta HTTP correspondente
 
 // Criar um erro de acesso proibido (ForbiddenError)
-const forbiddenError = new ForbiddenError('Acesso negado para este recurso');
-const errorResponse = forbiddenError.toHttpResponse();
-console.log(errorResponse); // Exibirá a resposta de erro correspondente
+const forbiddenError = new ForbiddenError('Acesso negado para este recurso')
+const errorResponse = forbiddenError.toHttpResponse()
+console.log(errorResponse) // Exibirá a resposta de erro correspondente
 ```
 
 ## Contribuição
