@@ -9,6 +9,7 @@ Este repositório contém uma coleção de classes e tipos que oferecem resposta
   - `CustomResponse`: Fornece uma estrutura para criar respostas personalizadas para códigos de status HTTP desejados.
   - `OKResponse`: Especialização de `CustomResponse` para retornar um código de status 200 (OK).
   - `NoContentResponse`: Especialização de `CustomResponse` para retornar um código de status 204 (No Content).
+  - `CreatedResponse`: Especialização de `CustomResponse` para retornar um código de status 201 (Created).
 
 - **Classes de Erro Personalizadas**:
   - `CustomError`: Oferece uma estrutura para criar erros personalizados, incluindo códigos de erro, mensagens de erro e mensagens exibíveis para o cliente.
