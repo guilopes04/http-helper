@@ -3,7 +3,7 @@ import {
   NotFoundError,
   OKResponse,
   ServerError
-} from './customError'
+} from './http-response'
 
 const handler = async () => {
   console.log('starting handler')

@@ -135,3 +135,11 @@ export class NoContentResponse extends CustomResponse {
     })
   }
 }
+
+export class CreatedResponse extends CustomResponse {
+  constructor() {
+    super({
+      statusCode: 201
+    })
+  }
+}
