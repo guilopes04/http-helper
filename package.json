@@ -1,0 +1,22 @@
+{
+  "name": "http-helper",
+  "version": "1.0.0",
+  "description": "Este repositório contém uma coleção de classes e tipos que oferecem respostas HTTP personalizadas e tratamento de erros para aplicações web, proporcionando uma maneira eficaz de gerenciar códigos de status HTTP e respostas específicas para diferentes cenários.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.4"
+  }
+}
